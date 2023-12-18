@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [All Test Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="assertionExmple(failed)">
+    <classes>
+      <class name="TestNG_Workshop.AssertionsEx">
+        <methods>
+          <include name="homePageTitle"/>
+          <include name="tearDown"/>
+          <include name="logo"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- TestNG_Workshop.AssertionsEx -->
+    </classes>
+  </test> <!-- assertionExmple(failed) -->
+</suite> <!-- Failed suite [All Test Suite] -->
